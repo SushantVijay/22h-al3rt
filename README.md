@@ -1,6 +1,6 @@
 <h1 align="center" id="title">SSH-AL3RT</h1>
 
-<p align="center"><img src="https://socialify.git.ci/SushantVijay/22h-al3rt/image?font=Source%20Code%20Pro&amp;forks=1&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Brick%20Wall&amp;stargazers=1&amp;theme=Dark" alt="project-image"></p>
+<p align="center"><img src="https://socialify.git.ci/SushantVijay/22h-al3rt/image?font=Source%20Code%20Pro&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Brick%20Wall&amp;stargazers=1&amp;theme=Auto" alt="project-image"></p>
 
 <p id="description">SSH Login Alert System A lightweight shell script to monitor SSH login attempts in real time. It detects successful logins from system logs extracts user and IP information and sends instant alerts via email. Ideal for enhancing server security by staying informed of login activity.</p>
 
