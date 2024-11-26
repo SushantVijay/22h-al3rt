@@ -76,10 +76,7 @@ Technologies used in the project:
 *   geoip-bin
 *   iptables
 
-<h2>🛡️ License:</h2>
 
-This project is licensed under the
-
-<h2>💖Like my work?</h2>
+<h2>Like my work?</h2>
 
 Secure your server stay informed and take control with SSH Login Alert System! Do follow and Star it if you like it!
