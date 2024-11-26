@@ -21,25 +21,19 @@ Here're some of the project's best features:
 <p>1. Clone the Repository</p>
 
 ```
-git clone https://github.com/yourusername/ssh-login-alert.git cd ssh-login-alert
+https://github.com/SushantVijay/22h-al3rt.git
 ```
 
 <p>2. Install Dependencies For Debian/Ubuntu:</p>
 
 ```
-sudo apt update sudo apt install mailutils
-```
-
-<p>3. For CentOS/RHEL:</p>
-
-```
-sudo yum install mailx
+sudo apt update sudo apt install mailutils geoip-bin iptables
 ```
 
 <p>4. Configure the Script</p>
 
 ```
-nano ssh_login_alert.sh
+nano shell.sh
 ```
 
 <p>5. Update the LOGFILE path if necessary (e.g. /var/log/secure for CentOS).</p>
@@ -51,29 +45,41 @@ ALERT_EMAIL="your_email@example.com"
 <p>6. Make the Script Executable</p>
 
 ```
-chmod +x ssh_login_alert.sh
+chmod +x shell.sh
 ```
 
 <p>7. Run the Script</p>
 
 ```
-sudo ./ssh_login_alert.sh
+sudo ./shell.sh
 ```
 
 <p>8. To run in the background:</p>
 
 ```
-nohup sudo ./ssh_login_alert.sh &
+nohup sudo ./shell.sh &
 ```
 
 <h2>🍰 Contribution Guidelines:</h2>
 
 Feel free to fork enhance or submit pull requests. Let’s make this tool even better together!
 
+  
+  
+<h2>💻 Built with</h2>
+
+Technologies used in the project:
+
+*   shell scripting
+*   mailx
+*   mailutils
+*   geoip-bin
+*   iptables
+
 <h2>🛡️ License:</h2>
 
-This project is licensed under the This project is licensed under the MIT License.
+This project is licensed under the
 
 <h2>💖Like my work?</h2>
 
-Secure your server stay informed and take control with SSH Login Alert System!
+Secure your server stay informed and take control with SSH Login Alert System! Do follow and Star it if you like it!
